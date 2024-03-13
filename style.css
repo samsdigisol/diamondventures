@@ -1,0 +1,104 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.carousel-item{
+    height: 80vh !important;
+    
+}
+.carousel-item img::before{
+    
+    background-color: black;
+}
+#navbarNav{
+    padding-left: 60%;
+}
+#navbarNav a{
+    color: #BE1E2D;
+    font-weight: bold;
+    width: fit-content;
+    
+}
+#navbarNav a:hover{
+    text-decoration: underline;
+    zoom: 110%;
+    background-color: azure;
+}
+b{
+    color: #BE1E2D;
+}
+.carousel-item{
+    background-color: #002539 !important;
+}
+.carousel-caption{
+    color:darksalmon;
+    text-shadow: 2px 5px 15px black;
+}
+.knowmore{
+    background-color: #BE1E2D;
+    color: burlywood;
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 40% 0px 40% 0px;
+    font-weight: bold;
+}
+i{
+    color: burlywood;
+}
+.card{
+    margin: 2%;
+}
+.card img{
+    height: 350px;
+    width: 400px;
+}
+.bg img{
+    height: 90vh;
+    width: 90vw;
+    position: fixed;
+    z-index: 0;
+    opacity: 0.5;
+}
+.card-body{
+    background-color: transparent;
+}
+.company{
+    background-color:burlywood;
+    padding: 2%;
+    display: grid;
+    grid-template-columns: 60% 35%;
+}
+li{
+    list-style-type: disc;
+}
+.social a{
+    font-size: 20px;
+    margin: 1%;
+}
+.links a{
+    text-decoration: none;
+    cursor:pointer;
+    color: teal;
+    padding: 1%;
+    margin: 3%;
+}
+
+.fa{
+    padding: 1%;
+    border-radius: 50%;
+}
+.fa:hover{
+    opacity: 0.5;
+}
+
+@media only screen and (max-width: 768px){
+    .carousel-item{
+        height: 50vh !important;
+    }
+    #navbarNav{
+        padding-left: 2%;
+    }
+    .company{
+        display: block;
+    }
+}
