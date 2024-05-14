@@ -124,6 +124,18 @@ video{
     width: 90vw;
     margin: 5%;
 }
+.talky{
+    position: fixed;
+    background-color: #1ebd5f;
+    border-color: #BE1E2D;
+    font-weight: bold;
+    top: 90%;
+    right: 1%;
+    width: 150px;
+    height: 40px;
+    border-radius: 25px;
+    
+}
 
 
 @media only screen and (max-width: 768px){
